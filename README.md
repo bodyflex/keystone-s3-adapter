@@ -2,6 +2,8 @@
 
 Also works with DigitalOcean spaces.
 
+**NOTE: Requires at least Node 8**
+
 ## Install
 
 ```npm install keystone-s3-adapter```
