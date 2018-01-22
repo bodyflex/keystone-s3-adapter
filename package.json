@@ -1,0 +1,15 @@
+{
+  "name": "keystone-s3-adapter",
+  "version": "0.1.0",
+  "description": "Keystone file adapter for AWS S3 that also works with DigitalOcean Spaces.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "bodyflex <max.huttunen@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "aws-sdk": "^2.185.0",
+    "keystone-storage-namefunctions": "^1.1.1"
+  }
+}
