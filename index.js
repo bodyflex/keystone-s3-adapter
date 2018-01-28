@@ -53,7 +53,7 @@ class S3FileAdapter {
 
       file.etag = response.Etag;
       file.filename = response.Key;
-      file.path = response.Location;
+      file.path = `${this.client.endpoint.href}${this.options.bucket}/${filename}`;
       file.bucket = response.Bucket;
 
       callback(null, file);
